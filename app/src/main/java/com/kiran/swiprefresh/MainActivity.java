@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         SwipeRefreshLayout swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.mySwipe);
+        //TextView textView= (TextView) findViewById(R.id.myTextView);
         TextView textView= (TextView) findViewById(R.id.myTextView);
         SwipeRefreshLayout.setOnRefreshListner (new SwipeRefreshLayout.onRefreshListner())
 
